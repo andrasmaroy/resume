@@ -1,39 +1,29 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
-    branches: 
-      - gh-pages
-
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    branches:
+      - master
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    name: Build
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-      - name: html to pdf
-        uses: misaelnieto/web_to_pdf_action@master
+      - name: Gatsby Publish
+        uses: enriikke/gatsby-gh-pages-action@v2.1.1
         with:
-          webPageURL: https://bjornamr.github.io/resume-template/
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
+      - name: Webpage to PDF
+        uses: SetiZ/web_to_pdf_action@master
+        with:
+          webPageURL: https://setiz.github.io/resume/
           outputFile: resume.pdf
-          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-          
-      - name: Upload pdf artifact
-        uses: actions/upload-artifact@v2
+          usePuppeteer: true
+          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: resume
-          path: resume.pdf
+          commit_message: Generate PDF
+          branch: gh-pages
+          file_pattern: webpage/resume.pdf
