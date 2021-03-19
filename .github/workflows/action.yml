@@ -1,7 +1,8 @@
-- name: html to pdf
-  uses: misaelnieto/web_to_pdf_action@master
+- name: Webpage to PDF
+  uses: misaelnieto/web_to_pdf_action@v0.3.1
   with:
     webPageURL: https://github.com/bjornamr/resume-template/
     outputFile: ./resume.pdf
     usePuppeteer: true
     useScreen: true
+    pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
