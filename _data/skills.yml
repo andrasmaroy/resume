@@ -1,12 +1,5 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
-
+- skill: Parallel Progamming 
+  description: Took a course in 2020 in parallel rogramming that covered CUDA, OpenMPI, OpenMP and Pthreads. Implemented Convolution in OpenMPI and CUDA getting Ideas from the paper Ghost Cell Pattern 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
