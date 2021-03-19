@@ -1,7 +1,0 @@
-- name: html to pdf
-  uses: misaelnieto/web_to_pdf_action@master
-  with:
-    webPageURL: https://github.com/bjornamr/resume-template/
-    outputFile: ./resume.pdf
-    usePuppeteer: true
-    useScreen: true
