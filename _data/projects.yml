@@ -2,15 +2,14 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: SEALAB OCEAN GROUP
+  role: Developer
+  duration: March 2019 &mdash; August 2019
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: Sealab is a provider of under water cameras that is used in fish farming for monitoring fish. To be able to monitor the fishes health, I was a consultant helping to get further in the computer vision goal of monitoring fish and wounds. 
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: Matprat.no  &mdash; Chatbot in Norwegian
+  role: Developer
+  duration: March 2018 &mdash; June 2018
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: Matprat is a food recipe website, and the end result provided for them was a chatbot that could answer food safety questions and give suggetions on what to make based on what ingredients the person has. The reason do do this was to give a better user experience for the user when looking for recipes and to avoid food waste. 
