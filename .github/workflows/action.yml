@@ -16,12 +16,12 @@ jobs:
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
       - name: Webpage to PDF
-        uses: SetiZ/web_to_pdf_action@master
+        uses: udondan/html-to-pdf-action@master
         with:
           webPageURL: https://bjornamr.github.io/resume-template/
           outputFile: webpage/resume.pdf
           usePuppeteer: true
-          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate PDF
