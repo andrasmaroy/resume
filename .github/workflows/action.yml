@@ -21,8 +21,7 @@ jobs:
           webPageURL: https://bjornamr.github.io/resume-template/
           outputFile: webpage/resume.pdf
           usePuppeteer: true
-          useScreen: false
-          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          useScreen: true
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate PDF
