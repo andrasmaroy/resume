@@ -1,25 +1,50 @@
 # Jobs
-# VP of Global Communications
-- company: Microchip
-  position: Application Engineer
-  duration: Aug, 2020 &mdash; Present
-  summary: Writing software both for microcontrollers in C and general backend development. 
- # summary: Writing software both for chips and sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: The Routing Company
+  position: Sr. Site Reliability Engineer, Scrum Master
+  duration: Dec, 2022 &mdash; Apr, 2023
+  summary: |-
+    <div>
+      <ul>
+        <li>Lead cost-saving efforts, reducing infrastructure costs by ~30%.</li>
+        <li>Introduced Scrum methodology to the newly formed SRE team.</li>
+        <li>Increased reliability of a critical infrastructure component from 96% to >99%.</li>
+      </ul>
+    </div>
 
-# Director of Digital Stratgy
-- company: Capgemini
-  position: Data Scientist
-  duration:  Jan, 2019 &mdash; Aug, 2020
-  summary: Worked with a team that specializing in Computer Vision. One of my projects at a startup that used underwater cameras in fish farms was to try to create a program to monitor the health of the fish using Computer Vision.
+- company: Avatao
+  position: Head of Development
+  duration:  Sep, 2020 &mdash; Sep, 2022
+  summary: |-
+    <div>
+      <ul>
+        <li>Lead two teams, a total of eight engineers.</li>
+        <li>Increased release cadence from bi-monthly to weekly by implementing agile best practices.</li>
+        <li>Focused on identifying growth areas for team members and creating personal growth plans based on them leading to 3 promotions.</li>
+        <li>Grew the teams by hiring 5 engineers in a 6 month period.</li>
+        <li>Collaborated closely with business and design teams to identify and implement solutions to client pain points.</li>
+      </ul>
+    </div>
 
+- company: Sonrisa
+  position: Sr. DevOps Engineer
+  duration:   Nov, 2017  &mdash; Aug, 2020
+  summary: |-
+    <div>
+      <ul>
+        <li>Was responsible for the operation of a BI service giving senior management visibility of daily operation.</li>
+        <li>Mentored a junior and 2 medior engineers by helping them find their growth areas and guiding them throughout a 1 year period.</li>
+        <li>Designed and implemented infrastructure automation tools reducing the time of deployments from a day to 1-2 hours.</li>
+      </ul>
+    </div>
 
-# Communications Coordinator
-- company: Making Waves
-  position: Data Scientist
-  duration:   Jul, 2017  &mdash; Dec, 2018
-  summary: Worked as a general developer and Data Scientist. Two of the projects including Machine Learning were a Norwegian Chatbot project in python and Proof of Concept testing Computer Vision in Elastic Search.
-
-- company: Kodeklubben Trondheim 
-  position: Instructor - Internship
-  duration:   Jun, 2016  &mdash; Jul, 2016
-  summary: Kodeklubben is a Norwegian initative to teach children coding. This internship was about teaching HTMl, CSS, JavaScript to people from junior high school and high school.
+- company: LogMeIn
+  position: Software/DevOps Engineer
+  duration:   Mar, 2014  &mdash; Oct, 2017
+  summary: |-
+    <div>
+      <ul>
+        <li>Worked on developing a cross-platform video conferencing solution for LogMeIn products.</li>
+        <li>Was responsible for the release process and operation of the production environment.</li>
+        <li>Took part in designing and automating a robust provisioning process for environment setups and hybrid-cloud based solutions.</li>
+      </ul>
+    </div>
