@@ -61,7 +61,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/andrasmaroy"
   # resume_instagram_url:         ""
   # resume_website_url:           ""
-  resume_pdf_url:               "https://github.com/andrasmaroy/resume/raw/gh-pages/webpage/resume.pdf"
+  # resume_pdf_url:               "https://github.com/andrasmaroy/resume/raw/gh-pages/webpage/resume.pdf"
   # resume_medium_url:            ""
 resume_print_social_links:      true
 
