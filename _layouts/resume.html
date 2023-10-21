@@ -68,6 +68,29 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_sidehustle %}
+      <!-- begin SideHustle -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>On the side</h2>
+        </header>
+
+        {% for job in site.data.sidehustle %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          {% if job.position %}
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          {% else %}
+          <h4 class="resume-item-details" itemprop="description">{{ job.duration }}</h4>
+          {% endif %}
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end SideHustle -->
+      {% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->

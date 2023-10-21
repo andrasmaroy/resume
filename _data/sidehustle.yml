@@ -1,0 +1,42 @@
+# On the side
+- company: Flow Academy
+  position: CTO
+  duration: Mar, 2022 &mdash; Present
+  summary: |-
+    <div>
+      <ul>
+        <li>Drove development of new trainings.</li>
+        <li>Worked on cost-optimization by process improvements.</li>
+      </ul>
+    </div>
+
+- company: Flow Academy
+  position: IT Bootcamp Mentor
+  duration: Oct, 2019 &mdash; Present
+  summary: |-
+    <div>
+      <ul>
+        <li>Taught hard skills and mentored 8 groups, a total of 90 of future developers with ~90% successfully getting a job in IT.</li>
+        <li>Actively took part in the design of the curriculum, creating material for 4 courses.</li>
+      </ul>
+    </div>
+
+- company: River guide
+  duration: Mar, 2020 &mdash; Present
+  summary: |-
+    <div>
+      <ul>
+        <li>Co-lead 10+ canoe tours ranging from 20 people up to 70 on various rivers.</li>
+      </ul>
+    </div>
+
+- company: Avatao
+  position: Advisor - AWS
+  duration: Mar, 2018  &mdash; Sep, 2019
+  summary: |-
+    <div>
+      <ul>
+        <li>Created a roadmap of 30 AWS related exercises for Avatao's learning platform.</li>
+        <li>Mentored developers implementing the roadmap and reviewed their work.</li>
+      </ul>
+    </div>
