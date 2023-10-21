@@ -18,7 +18,7 @@ jobs:
       - name: Webpage to PDF
         uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: https://bjornamr.github.io/resume-template/
+          webPageURL: https://andrasmaroy.github.io/resume/
           outputFile: webpage/resume.pdf
           usePuppeteer: true
       - uses: stefanzweifel/git-auto-commit-action@v4
