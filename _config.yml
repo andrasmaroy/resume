@@ -1,5 +1,5 @@
 # Site settings
-title: "Bjørnar's resume"
+title: "András's resume"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Bjørnar Moe Remmen"
-resume_title:                   "Software developer"
+resume_name:                    "András Maróy"
+resume_title:                   "Engineering Manager"
 
 # used for the contact button in _layouts/resume.html
 #resume_contact_email:           "lisasimpson@youremailaddress.com"
@@ -45,15 +45,15 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  #resume_github_url:            "https://github.com/jglovier/resume-template"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/bjornarremm"
-  # resume_instagram_url:         "insert your Instagram URL here"
-#  resume_website_url:           "https://github.com/bjornamr/resume-template/raw/gh-pages/webpage/resume.pdf"
-  resume_pdf_url: "https://github.com/bjornamr/resume-template/raw/gh-pages/webpage/resume.pdf"
-  #resume_medium_url:            "https://medium.com/@jglovier"
+  resume_github_url:            "https://github.com/andrasmaroy"
+  # resume_twitter_url:           ""
+  # resume_dribbble_url:          ""
+  # resume_facebook_url:          ""
+  resume_linkedin_url:          "https://www.linkedin.com/in/andrasmaroy"
+  # resume_instagram_url:         ""
+  # resume_website_url:           ""
+  resume_pdf_url:               "https://github.com/andrasmaroy/resume/raw/gh-pages/webpage/resume.pdf"
+  # resume_medium_url:            ""
 resume_print_social_links:      true
 
 # Design settings
