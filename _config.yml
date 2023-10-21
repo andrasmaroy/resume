@@ -1,6 +1,6 @@
 # Site settings
 title: "András's resume"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "A static page hosting András Maróy's resume."
 
 # Build settings
 markdown: kramdown
@@ -14,14 +14,14 @@ resume_name:                    "András Maróy"
 resume_title:                   "Engineering Manager"
 
 # used for the contact button in _layouts/resume.html
-#resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           ""
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-#resume_contact_telephone:       "555-7334"
-resume_contact_address:         "Sandgata 2, 7012 Trondheim, Norway"
+resume_contact_telephone:       ""
+resume_contact_address:         ""
 
-#resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "true"
+resume_header_contact_info:     ""
+display_header_contact_info:    "false"
 
 resume_header_intro: |-
   <p>Engineering manager with a background in software engineering and devops in both product focused and outsource companies. Interested in psychology and teaching.</p>

@@ -1,15 +1,8 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: SEALAB OCEAN GROUP
-  role: Developer
-  duration: March 2019 &mdash; August 2019
-  # url: "#"
-  description: Sealab is a provider of under water cameras that is used in fish farming for monitoring fish. To be able to monitor the fishes health, I was a consultant helping to get further in the computer vision goal of monitoring fish and wounds. 
-
-- project: Matprat.no  &mdash; Chatbot in Norwegian
-  role: Developer
-  duration: March 2018 &mdash; June 2018
-  # url: "#"
-  description: Matprat is a food recipe website, and the end result provided for them was a chatbot that could answer food safety questions and give suggetions on what to make based on what ingredients the person has. The reason do do this was to give a better user experience for the user when looking for recipes and to avoid food waste. 
+# - project: Example project
+#   role: Example role
+#   duration: March 2018 &mdash; June 2018
+#   url: "https://example.com"
+#   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
